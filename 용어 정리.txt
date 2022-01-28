@@ -1,0 +1,50 @@
+김소희 강사
+koreait.2021@gmail.com
+
+
+JAVA의 원칙
+한 번 쓰고 모든 곳에서 실행한다 (Write Once, Run Anywhere => WORA)
+
+JDK > JRE > JVM
+JDK = JRE + Development Tools
+JRE = JVM + Library Classes
+
+* JDK
+	자바 개발 키트(Java Development Kit)
+		Java 환경에서 돌아가는 프로그램을 개발하는 데 필요한 툴들을 모아놓은
+		소프트웨어 패키지이다.
+		가장 널리 사용되는 소프트웨어 개발 키트
+		JDK구성( javac / java / jdb / jre / jvm )
+	
+						-> JVM <- -> Interpreter for mac
+	Sourse Code -> Compiler -> Byte code 	-> JVM <- -> Interpreter for Windows
+	(.java file)	(javac)	 (.class file)	-> JVM <- -> Interpreter for Linux
+
+
+* JRE
+	자바 런타임 환경(Java Runtime Environment)
+		컴퓨터의 운영체제 소프트웨어 상에서 실행되고 클래스 라이브러리 및 특정
+		Java 프로그램이 실행해야 하는 기타 리소스를 제공하는 소프트웨어 계층이다.
+		개발자가 애플리케이션과 서비스 간에 완벽한 데이터 연결을 구축할 수 있도록
+		지원하는 다수의 통합 라이브러리를 제공한다.
+
+* 컴파일(Compile)
+	주어진 언어(language)로 작성된 컴퓨터 프로그램을 다른 언어의 동등한
+	프로그램으로 변환하는 프로세스
+		컴파일러(Compiler)는 이를 실행하는 소프트웨어
+		프로그래밍 언어로 쓰여 있는 문서를 다른 프로그래밍 언어로 옮기는
+		언어 번역 프로그램을 말한다.
+	        JAVA의 경우 Byte code로 변환해준다.
+			
+	
+
+* 인터프리터(interpreter)
+	프로그래밍 언어의 소스 코드를 바로 실행하는 컴퓨터 프로그램 또는 환경을 말한다.
+
+	for문 복습 예제. 
+
+1. 5!(팩토리얼) 은 5*4*3*2*1 , 12! 은 12*11*10*9*8*....*3*2*1 입니다.
+   num 변수값의 팩토리얼을 구하는 for문을 작성해서 결과를 구해보세요.
+
+2. num 변수값은 100 입니다. num 보다 작은 값 중에서 3의 배수의 갯수를 구하는 for문을 작성해서 결과를 구해보세요.
+	

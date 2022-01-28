@@ -1,0 +1,32 @@
+day10_index
+
+1.	day9 문제풀이 Numbergame0.java : day9 프로젝트
+2.	DoWhileTest.java - DoWhile문의 이해
+3.	NumberGame.java - 예제문제 활용
+4.5	MyClass1.java / MyClass1Test.java - 클래스의 이해
+6.7	MyClass2.java / MyClass2Test.java - 클래스의 이해
+8.9	MyClass3.java / MyClass3Test.java - 클래스의 이해
+
+10.	koreait.day10a	패키지 MyClass2Test.java - 클래스의 이해
+
+11.	koreait.day10b	패키지 NumberGame.java - 클래스 활용
+12.	koreait.day10b	패키지 MyRedPen.java - 예제
+13.	koreait.day10b	패키지 MyRedPen.java - 예제
+	배열, 클래스 -> 5시 40분에 파일 제출 (미완성도 제출)
+	
+	*실행화면*
+----------------------------------------------
+빨간펜 수학 2자리 덧셈 문제 풀기
+--------------------------------------
+시작합니다
+문제1. 23+56 = 답 입력->
+문제2. 33+19 = 답 입력->
+
+문제10. 28+32 = 답 입력->
+
+----------------------
+채점합니다. 맞은 갯수 ... (...점)
+
+추가기능 : 틀린 문제 다시 보기 (배열), 계속하시겠습니까(반복)
+
+처리조건 : 문제 숫자들은 난수이고 2자리 숫자로 진행

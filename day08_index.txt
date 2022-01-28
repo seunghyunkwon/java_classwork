@@ -1,0 +1,9 @@
+day08_index
+
+1.	IntArrayTest2.java - 배열의 활용
+2.	IntArrayTest3.java - 배열의 활용
+3.	IntArrayTest4.java - 배열의 활용
+4.	LottoTest.java - 배열의 활용
+5.	RealLotto.java - 배열의 활용
+6.	StringMethod1.java - 메소드의 활용
+7.	StringMethod2.java - 메소드의 활용

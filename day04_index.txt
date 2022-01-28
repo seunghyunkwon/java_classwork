@@ -1,0 +1,38 @@
+﻿dya04
+
+1.	SwitchTest.java - if문이 반복될 때 Switch문을 활용하여 가독성을 높인다.
+						ㄴ단, 조건식이 정수 혹은 문자열인 경우에만 가능하다.
+2.	CharacterTest.java - ASCII(아스키)코드
+3.	CharacterTypeTest.java - 연산자의 우선순위 
+								산(산술연산) → 방향
+									ㄴ(+,-,*,/)
+								비(비교연산) → 방향
+									ㄴ(<,>)
+								논(논리연산) → 방향
+									ㄴ(&&,||)
+								대(대입연산) ← 방향
+									ㄴ(=)
+								ㄴ 단항연산자 (3y) -> 이항연산자 (3y+3)-> 삼항연산자 순서 (3y+3+3)
+								ㄴ (산,비,논) 정방향으로 결합순  (대) 역방향으로 결합순
+4.	StringTest.java - String의 이해 (CharAt())
+5.	ForTest1.java - 반복문(for)의 이해
+6.	StarPrint.java - 예제문제(for문의 활용)
+				영화 감상 후기 1~5 평점 입력 -> 방법1)3일때 ★★★,  방법2)★★★☆☆
+7.	SumTest.java	-> for문의 활용2
+8.	Exam.java - 복습 (for문)
+9.	Exam2.java - 복습 (최대값 최소값) 
+				
+				
+	반환값 형식 패키지명,클래스명,메소드명(인자형식)
+	
+	void java.io.PrintStream.println(String x)
+		void : println 메소드 실행결과로 반환되는 데이터의 형식, 실행결과 반환값 없음
+	
+	int java.lang.String.length()
+		int : length() 메소드 실행결과로 반화되는 데이터의 형식, 실행결과 정수값 반환
+		
+	char java.lang.String.charAt(int index)
+		char : charAt() 메소드 실행결과로 반환되는 데이터의 형식, 실행결과 문자 반환
+		
+	boolean java.lang.String.equals(Object anObject)
+		boolean : equals() 메소드 실행결과로 반환되는 데이터의 형식, 실행결과 논리값(참 또는 거짓)반환

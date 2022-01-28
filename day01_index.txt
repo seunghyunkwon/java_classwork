@@ -1,0 +1,4 @@
+day01_index
+
+1.	PrintTest.java - System.out.print 메소드로 출력
+2.	TwincePrint.java - 프린트 메소드 활용 

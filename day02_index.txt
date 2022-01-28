@@ -1,0 +1,9 @@
+day2 index
+
+	IntegerData.java - 정수 데이터 형식
+	IntegerVarTest.java - 정수를 저장하는 변수 연습
+	DoubleData.java - 실수 데이터 형식
+	DoubleVarTest.java - 실수 타입 변수 연습
+	ShapeTest.java - 정수와 실수 변수 활용
+	
+	

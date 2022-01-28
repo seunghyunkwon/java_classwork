@@ -1,0 +1,29 @@
+day11_index
+
+1.	MyRedPenTask.java	-	예제풀이
+2.	ClassA~ClassCC.java	-	상속관계 확인
+3.	Shape.java	-	상속관계 연습
+4.	ShapeTest.java	-	상속관계 연습
+5.	Triangle.java	-	상속관계 연습
+6.	Square.java	-	상속관계 연습
+
+*오늘의 문제 : 상속 관계 연습
+	1) Animal.java	:	필드 color, name (private 접근자)
+	2) 				:	getter setter 메소드
+	3)				:	생성자는 기본생성자에서 "새로운 반려동물 가족이 생겼습니다." 출력하기
+	4) 				:	메소드는 void sound(); "소리를 내는 동물입니다." 출력하기
+	5) Puppy.java	:	필드 type(문자열,private),(getter,setter)
+	6)				:	메소드 sound() 재정의 동물모양 이모지 출력
+	7) AnimalTest.java : main 메소드 포함합니다.
+	8)				:	Puppy 객체를 생성하고 변수명 puppy로 참조한다.
+	9)				:	실행하고 결과 확인
+	10)				:	8)번 객체로 sound 메소드 실행
+	11)				:	8)번 객체의 type 필드값을 "poodle"로 하고 출력해서 확인
+	12)cat.java		:	sound 오버라이딩, 필드는 추가하지 않는다.
+	13)				:	default 생성자 "야옹이가 생성되었습니다."
+	14) AnimalTest 	:   Cat 객체를 생성하고 결과 확인
+	
+				Animal 과 Square의 차이
+1)생성자의 차이 		기본생성자 : 커스텀생성자
+2)setter의 차이	있다          : 없다	
+Square클래스는 커스텀생성자로 필드값 설정하고 이후에 변경 못하는 설계
