@@ -20,5 +20,6 @@ public class StringCompareToTest {
 		
 		
 		System.out.println("문자열비교3: "+"boa".compareTo("boa"));
+		
 	}
 }
