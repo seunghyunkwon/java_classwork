@@ -7,17 +7,18 @@ import java.sql.SQLException;
 public class OracleConnectUtil {	//오라클 연결이 필요할 때 사용될 클래스
 	
 	//연결
-	public static void connect() {	//주석은 JDBCConnectTest.java를 참고
+	public static Connection connect() {	//주석은 JDBCConnectTest.java를 참고
 		
 		String url = "jdbc:oracle:thin:@//localhost:1521/xe";	
 		
 		String user = "idev";
 		String password = "1234";
 		String driver = "oracle.jdbc.driver.OracleDriver";	
+		Connection conn=null;
 		try {
 			Class.forName(driver);
 			
-			Connection conn = DriverManager.getConnection(url, user, password);
+			conn = DriverManager.getConnection(url, user, password);
 			if(conn==null)
 				System.out.println("데이터베이스 서버에 연결되지 못했습니다.");
 			
@@ -27,6 +28,9 @@ public class OracleConnectUtil {	//오라클 연결이 필요할 때 사용될 �
 		} catch (SQLException e2) {
 			System.out.println("연결 URL, 사용자 계정 정보 오류:"+e2.getMessage());
 		}
+		
+		return conn;
+		
 	}//connect end
 	
 	//연결 종료
