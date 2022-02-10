@@ -72,14 +72,15 @@ public class IDCheckInsert {
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1,id);	
 			rs = pstmt.executeQuery();	
-			if(rs.next()==result)
+			
+			if(!rs.next())	//값이 있으면 true 없으면 false
 			 result=true;
+			
 			pstmt.close();
 			//
 		}catch(SQLException e) {
 			System.out.println("SQL 실행 오류:"+e.getMessage());
-			
 		}
-		return result;
+		return result;	//ID가 중복되면 false, 중복되지않으면 true
 	}
 }

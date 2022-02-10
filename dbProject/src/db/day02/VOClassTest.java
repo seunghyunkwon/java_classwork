@@ -25,6 +25,7 @@ public class VOClassTest {
 //			int i=1;
 			while(rs.next()) {
 				//SELECT 조회 결과를 한행씩 가져와서 List에 추가한다.
+				//getXXX(인덱스) : 인덱스는 select 뒤에 나열된 컬럼의 순서이다.
 				customs.add(new Custom(rs.getString(1),
 							rs.getString(2),
 							rs.getString(3),
