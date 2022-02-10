@@ -1,0 +1,4 @@
+db.day02
+
+1.	VOClassTest.java	:db.vo 패키지의 Custom 클래스를 이용하여 select 결과를 자바 변수에 저장
+2.	IDCheckInsert.java	:insert 쿼리의 기본키 제약조건을 검사 -> custom_id 중복검사 메소드 만들기	
