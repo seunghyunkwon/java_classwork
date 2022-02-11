@@ -26,11 +26,19 @@ public class VOClassTest {
 			while(rs.next()) {
 				//SELECT 조회 결과를 한행씩 가져와서 List에 추가한다.
 				//getXXX(인덱스) : 인덱스는 select 뒤에 나열된 컬럼의 순서이다.
-				customs.add(new Custom(rs.getString(1),
+				customs.add(new Custom(rs.getString(1),	//방법 1) 커스텀 생성자 이용하기
 							rs.getString(2),
 							rs.getString(3),
 							rs.getInt(4),
 							rs.getDate(5)));
+				
+				Custom vo = new Custom();	//방법2) 기본 생성자을 만들고 setter 메소드 이용하기
+				vo.setCustom_id(rs.getString(1));
+				vo.setName(rs.getString(2));
+				vo.setEmail(rs.getString(3));
+				vo.setAge(rs.getInt(4));
+				vo.setReg_date(rs.getDate(5));
+				customs.add(vo);
 				
 //				System.out.pring(i++ + "행  ");
 //				System.out.print(String.format("%-20s", rs.getString("custom_id")));

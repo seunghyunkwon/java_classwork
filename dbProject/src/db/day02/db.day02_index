@@ -1,4 +1,8 @@
 db.day02
 
 1.	VOClassTest.java	:db.vo 패키지의 Custom 클래스를 이용하여 select 결과를 자바 변수에 저장
-2.	IDCheckInsert.java	:insert 쿼리의 기본키 제약조건을 검사 -> custom_id 중복검사 메소드 만들기	
+2.	IDCheckInsert.java	:insert 쿼리의 기본키 제약조건을 검사 -> custom_id 중복검사 메소드 만들기
+3.	SelectDistinct.java	:distinct 키워드 사용하는 select 조회하고 결과를 list에 저장
+						:lish를 이용할 때는 select한 테이블의 내용 변경이 없을 때 사용
+4.	UpdataTest.java		:update sql 실행
+5.	DeleteTest.java		:delete sql 실행						

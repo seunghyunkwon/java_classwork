@@ -3,6 +3,7 @@ package dbvo;
 import java.sql.Date;
 
 //VO : Value Object 여러개의 데이터를 저장하는 것이 목적이다.
+//custom# 테이블의 컬럼을 저장할 필도로 구성된 클래스
 public class Custom {
 	private String custom_id;
 	private String name;
@@ -18,6 +19,10 @@ public class Custom {
 		this.email=email;
 		this.age=age;
 		this.reg_date=reg_date;
+	}
+	
+	public Custom() {
+		
 	}
 	//getter
 	public String getCustom_id() {
