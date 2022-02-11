@@ -1,4 +1,4 @@
-package dbvo;
+package db.vo;
 
 import java.sql.Date;
 

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import db.day01.OracleConnectUtil;
-import dbvo.Custom;
+import db.vo.Custom;
 
 public class VOClassTest {
 	//SelectTest2.java 를 vo 이용하여 자바변수에 저장하는 연습

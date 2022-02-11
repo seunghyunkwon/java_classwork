@@ -29,8 +29,8 @@ public class SelectDistinct {
 			rs=pstmt.executeQuery();
 			
 			while(rs.next()) {
-				System.out.print(String.format("%-10s", rs.getNString(1)));
-				codes.add(rs.getNString(1));
+				System.out.print(String.format("%-10s", rs.getString(1)));
+				codes.add(rs.getString(1));
 			}
 			System.out.println();
 			
