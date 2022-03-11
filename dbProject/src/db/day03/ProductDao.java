@@ -97,7 +97,7 @@ public class ProductDao {
 		OracleConnectUtil.close(conn);
 	}
 	
-	// select 쿼리 (조건 없음)
+	// selectAll
 		public List<Product> selectAll() {
 			Connection conn = OracleConnectUtil.connect();
 			String sql = "SELECT * FROM TBL_PRODUCT#";
